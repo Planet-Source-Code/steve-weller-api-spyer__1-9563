@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=API Setup Package
+
+
+[Package|API Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer
+
+[Package|API Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|API Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|API Setup Package|Files Found]
+
+[Package|API Setup Package|Files Released]
+
+[Package|API Setup Package|Missing Dependency Information]
+
+[Package|API Setup Package|Out-of-Date Dependency Information]
+
+[Package|API Setup Package|Files Added]
+
+[Package|API Setup Package|Files Removed]
+
+[Package|API Setup Package|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|API Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|API Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|API Setup Package|Install Locations]
+D:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer.exe=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|API Setup Package|Configure Shared Files]
+Applicable=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer.exe=No
+
+[Package|API Setup Package|Distribution]
+Type=multi
+Size=1.2 MB
+Title=API Spyer
+
+[Package|API Setup Package|IconGroups]
+Group0=API Spyer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|API Setup Package|API Spyer]
+Icon1=APISpyer.EXE
+Title1=API Spyer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|API Setup Package|Package]
+PackageFolder=c:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES
+ServerSideCab=
+File1=c:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer\setup.exe
+File2=c:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer\Setup.Lst
+File3=c:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer\APISpy1.CAB
+File4=c:\Program Files\Microsoft Visual Studio\VB98\VBSTEVES\APISpyer\APISpy2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

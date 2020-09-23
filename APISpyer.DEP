@@ -1,0 +1,16 @@
+[Version]
+Version=1.0.0.0
+
+[APISpyer.exe <0009>]
+Dest=$(AppPath)
+Date=7/17/99
+Time=23:19
+Version=1.0.0.0
+CABFilename=APISpyer.CAB
+CABINFFile=APISpyer.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
